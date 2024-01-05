@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Links = (props) => {
-  const { link, children, classname } = props;
+  const { to, children, classname } = props;
   return (
-    <Link to={link} className={classname}>
+    <NavLink to={to} className={classname}>
       {children}
-    </Link>
+    </NavLink>
   );
 };
 export default Links;
