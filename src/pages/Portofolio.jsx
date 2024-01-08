@@ -10,7 +10,7 @@ const Portofolio = () => {
         "My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.",
       tech: "React JS, Tailwind CSS",
       github: "https://github.com/NandiSaputra/my-portofolio.git",
-      demo: "https://bagasrakha.netlify.app/",
+      demo: "https://nandiportofolio.netlify.app/",
     },
     {
       id: 2,
