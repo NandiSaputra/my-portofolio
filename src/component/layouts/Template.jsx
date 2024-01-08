@@ -10,9 +10,10 @@ const Template = ({ children }) => {
   }, []);
 
   return (
-    <div className="font-conforter">
+    <div className="font-conforter max-w-7xl mx-auto flex flex-col relative">
       <Navbar />
-      {children}
+      <div class="md:mt-[110px]">{children}</div>
+
       <Footer />
     </div>
   );

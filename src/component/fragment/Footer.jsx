@@ -14,9 +14,6 @@ const Footer = () => {
           <Links to="/portofolio" classname="text-gray-300 hover:text-white">
             Portfolio
           </Links>
-          <Links to="/contact" classname="text-gray-300 hover:text-white">
-            Blog
-          </Links>
         </nav>
       </footer>
     </div>
