@@ -69,8 +69,13 @@ function App() {
             data-aos="fade-left"
             data-aos-delay="500"
             data-aos-easing="ease-in-out"
-            className="bg-[url(assets/profil.jpeg)] shadow-2xl  rounded-full border-4 border-amber-200 pict w-[200px] h-[200px] md:w-[300px] md:h-[300px] bg-cover bg-no-repeat bg-center"
-          ></div>
+          >
+            <img
+              src="assets/profil.jpeg"
+              className="hadow-2xl  rounded-full border-4 border-amber-200 pict w-[200px] h-[200px] md:w-[300px] md:h-[300px] bg-cover bg-no-repeat bg-center"
+              alt=""
+            />
+          </div>
         </div>
       </Template>
     </>
